@@ -1,0 +1,46 @@
+@keyframes teaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa{
+    from    {
+       
+
+     }
+    to {
+       
+    }
+
+}
+
+
+
+
+
+.scale {
+    width: 150px ;
+    height: 150px ;
+    background-color: rgb(152, 89, 89);
+    margin:  0 auto;
+    margin-top: 510px;
+    transition-duration: 10s;
+}
+
+.scale:hover { 
+ transform: scale(2);
+ background-color: rgb(55, 255, 0);
+
+}
+.teapot {
+width: 150px;
+height: 150px;
+background-color:aqua ;
+border-radius:  50%;
+margin-top: 260px;
+ animation-name: teaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+ animation-duration: 5s;
+ position: relative;
+ animation-iteration-count:10;
+ animation-timing-function:step-end;
+ animation-direction: alternate;
+}
+body {
+
+    height: 200008px;
+}
