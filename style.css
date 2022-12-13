@@ -1,0 +1,27 @@
+@keyframes spin  {
+
+    from  {
+        transform: rotate(0deg);
+            }
+    to {
+        transform: rotate(360deg) ;
+    }
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;               
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function:linear;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    animation-name: spin; 
+}
