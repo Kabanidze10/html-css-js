@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Psycho-RObots; 
+  src: url(fonts/Psycho-RObots.ttf); 
+ }
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  flex-wrap: wrap;
+  margin-top: 130px;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  background-color: #171717;
+  margin: 2px;
+  box-shadow: 0 0 2px #171717;
+  transition: 2s ease;   /* типа это нужная штука */
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
+
+.goose {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  
+  /* background-color: rgb(89, 250, 68); */
+}
+
+.goose input {
+  
+  width: 100px;
+  height: 100px;
+  background-color: rgb(67, 196, 255);
+  font-family: Psycho-RObots;
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+
+ 
+}
+
+
+.goose input:active {
+  background-color: rgb(208, 255, 37);
+}
+
+.transition_one {
+  transition: 70s ease;
+}
+
+.clean {
+
+  background-color: hsl(0, 7%, 9%);
+  transition: 0.1ms; 
+}
