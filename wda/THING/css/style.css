@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap');
+
+header, footer {
+    background-color: blue;
+    padding: 10px;
+ 
+}
+
+.c{
+    color: white; 
+    font-size: larger;
+}
+
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+.item {
+
+    width: 580px;
+    height: 300px;
+    border: 4px solid black ;
+    margin-bottom: 20px;
+    background-image: url("/THING/img/");
+
+}
+
+.a {
+    background-image: url("/THING/img/Anastronautridingahorseinaphotorealisticstyle0.avif");
+    background-size: 360px 300px ;
+    background-repeat: no-repeat;
+}
+
+.b{
+    background-image: url("/THING/img/dall-e-introducing-outpainting.avif");
+    background-size: 360px 300px ;
+    background-repeat: no-repeat;
+}
+
+.v {
+    background-image: url("/THING/img/Anastronautridingahorseinaphotorealisticstyle4.avif");
+    background-size: 360px 300px ;
+    background-repeat: no-repeat;
+}
+
+.g {
+    background-image: url("/THING/img/dall-e-api-now-available-in-public-beta.avif");
+    background-size: 360px 300px ;
+    background-repeat: no-repeat;
+}
+
+.p {
+    padding-left: 400px;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+}
+
+.contenier {
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+@media( max-width: 376px){
+    .item {
+        width: 330px;
+        height: 165px;
+        background-color: chartreuse;
+    }
+
+    .contenier {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
