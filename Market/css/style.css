@@ -1,0 +1,56 @@
+ header,footer {
+
+    height: 60px;
+    background: #FFE138;
+    position: broken;
+   width: 100%;
+    margin: 0px;
+ }
+
+ .item1, .item2, .item3{
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 25px ;
+ }
+
+ main { 
+    display: flex;
+    justify-content:space-evenly;
+ }
+ 
+ img {
+   width: 300px;
+   height: 200px;
+
+ }
+ a {
+   color:black;
+   text-decoration: none;
+   font-size: xx-large;
+   margin-left: 20px;
+
+ }
+
+ header {
+   padding-top: 15px;
+ }
+
+.iok {
+ display: flex;
+ justify-content: center;
+ height: 700px;
+ align-items: center;
+ }
+
+ p{
+  margin: 30px;
+ }
+
+ .item1 {
+  height: 525px;
+ }
+
+ .item2 {
+  height: 555px;
+ }
